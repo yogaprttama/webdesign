@@ -1,0 +1,196 @@
+/**
+ * Dibuat oleh Yoga Pratama
+ * Pada 8 Juni 2017
+ */
+
+body {
+	font-family: "Roboto";
+	margin: 0;
+	padding: 0;	
+}
+
+.wrapper {
+	width: 100%;
+	background-color: #F9F9FB
+}
+
+.catatan-kepala {
+	background-image: url('../img/background-catatan-kepala.jpg');
+	padding-top: 50px;	
+}
+
+.catatan-kepala .judul h1, .catatan-kepala .judul p {
+	text-align: center;	
+	color: white
+}
+
+.catatan-kepala .judul hr {
+	width: 25px;
+	margin-top: -10px;
+	margin-bottom: 0px;
+	border: 2px solid white
+}
+
+.catatan-kepala .judul p {
+	padding-bottom: 30px
+}
+
+
+/**
+ * Navigasi
+ * Sumber: https://www.w3schools.com/css/css_navbar.asp
+ *
+ */
+
+.navigasi ul {
+    list-style-type: none;
+	margin: 0 10px 0 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0B486B;
+    opacity: 0.8;    
+    border-radius: 10px 10px 0px 0px; 
+}
+
+.navigasi li {	
+    float: left    
+}
+
+.navigasi li a {	
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;    
+    text-decoration: none;
+}
+
+.navigasi li a:hover {
+    background-color: #79BD9A;
+}
+
+
+.container, .navigasi {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto		
+}
+
+.container {
+	background-color: #F9F9FB;
+	padding-top: 10px;
+	padding-bottom: 10px	
+}
+
+/* Baris Pertama */
+.kolom-kiri-baris-pertama {
+	width: 620px;
+	float: left;
+	margin: 10px 8px 10px 10px;
+	border-left: 1px solid #dddddd;
+	border-top: 3px solid #75C181;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 5px;
+	background-color: #ffffff	
+}
+
+.kolom-kanan-baris-pertama {
+	width: 300px;
+	float: left;
+	margin: 10px 10px 10px 8px;
+	border-left: 1px solid #dddddd;
+	border-top: 3px solid #EA5395;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 5px;
+	background-color: #ffffff	
+}
+
+/* Baris kedua */
+
+.kolom-kiri-baris-kedua {
+	width: 300px;
+	float: left;
+	margin: 10px 10px 10px 8px;
+	border-left: 1px solid #dddddd;
+	border-top: 3px solid #8A40A7;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 5px;
+	background-color: #ffffff	
+}
+
+.kolom-tengah-baris-kedua {
+	width: 300px;
+	float: left;
+	margin: 10px 10px 10px 8px;
+	border-left: 1px solid #dddddd;
+	border-top: 3px solid #58BBEE;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 5px;
+	background-color: #ffffff	
+}
+
+.kolom-kanan-baris-kedua {
+	width: 300px;
+	float: left;
+	margin: 10px 10px 10px 8px;
+	border-left: 1px solid #dddddd;
+	border-top: 3px solid #F88C30;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 5px;
+	background-color: #ffffff	
+}
+
+/* Baris ketiga */
+
+.kolom-kiri-baris-ketiga {
+	width: 460px;
+	float: left;
+	margin: 10px 10px 10px 8px;
+	border-left: 1px solid #dddddd;
+	border-top: 3px solid #EA5395;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 5px;
+	background-color: #ffffff	
+}
+
+.kolom-kanan-baris-ketiga {
+	width: 460px;
+	float: left;
+	margin: 10px 10px 10px 8px;
+	border-left: 1px solid #dddddd;
+	border-top: 3px solid #75C181;
+	border-right: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 5px;
+	background-color: #ffffff	
+}
+
+/* Catatan kaki */
+
+footer {
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #d6d6d6
+}
+
+footer h6 {	
+	text-align: center;
+	padding: 10px;
+	margin: 0
+}
+
+/* Property Pading untuk semua konten */
+#konten-1, #konten-2, #konten-3, #konten-4, #konten-5, #konten-6, #konten-7 {
+	padding: 5px 20px 5px 20px;
+}
+
+/* Membuat div agar konsisten dan Tidak bisa disisipi oleh div lain */
+
+.bersih {
+	clear: both
+}
